@@ -1,16 +1,28 @@
-### Hi there 👋
-
-<!--
-**LuisPolla/LuisPolla** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+const aboutMe = {
+    briefDescription: "I'm a developer with a passion for technology!",
+    pronouns: "he" | "him",
+    code: ["Javascript", "Typescript", "Node"],
+    technologies: {
+        frontEnd: {
+            js: ["React", "React Native"],
+            css: ["Bootstrap", "Tailwind", "Module CSS"],
+            misc: ["ContextApi"],
+        },
+        backEnd: {
+            js: ["Node", "TypeScript"],
+        },
+        databases: ["sqLite", "PostgreSQL", "Mssql Server"],
+        orm: ["Sequelize", "TypeORM"]
+        misc: ["Git"],
+    },
+    languages: {
+        portuguese: {
+            level: "native"
+        },
+        english: {
+            level: "basic"
+        }
+    },
+    softSkills: ["comunicação", "proatividade", "autoliderança", "trabalho em equipe", "aprender a aprender"],
+    currentOccupation: ["Programador de Sistemas" ,"Freelancer nas horas vagas"]
+};
